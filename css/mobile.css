@@ -1,0 +1,8 @@
+@media screen and (max-width: 1200px) {
+    .navigation {
+       flex-direction: column;
+    }
+    .content {
+       padding: 20px;
+    }
+ }

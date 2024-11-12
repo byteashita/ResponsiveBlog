@@ -1,0 +1,30 @@
+.contact-content {
+    height: 395px;
+    margin-top: 32px;
+    padding: 9px;
+    position: relative;
+    overflow: hidden;
+    height:90vh
+}
+
+.contact-content::after {
+    content: "";
+    background-image: url('../typing.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.18;
+    z-index: -1;
+}
+
+.contact-form{
+    height:80vh
+
+}
+
+
+
